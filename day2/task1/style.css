@@ -1,0 +1,27 @@
+body{
+    background-color: #f3f4f4;
+    text-align:center;
+}
+.parent{
+    border: 5px solid #c3c3c3;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: #312a50;
+    height:50vh;
+}
+.ptxt{
+    border-bottom: 5px dotted #2328bc;
+   
+}
+.child1{
+    font-size: 0.5em;
+    margin-top: 2%;
+    background-color: #2328bc;
+    width: 50vw;
+    height: 50%;
+    margin-left: 25%;
+    border: 3px dotted white;
+}
+.child2{
+    font-size: 2rem;
+}
