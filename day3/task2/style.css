@@ -1,0 +1,18 @@
+.container1{
+    border: 5px dashed #2328bc;
+    min-width: 50vw;
+}
+.container2{
+    margin-top: 50px;
+    border: 5px dotted #312a50;
+    width: 20%;
+}
+
+.container3{
+    margin-top: 50px;
+    padding: 50px;
+    border: 10px double #000;
+    margin: auto;
+    width: 10%;
+    border-radius: 5px;
+}
