@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    background-color: #312a50;
+    height: 3rem;
+    align-items: center;
+    color: #f4f4f4;
+    border-radius: 0.3rem;
+}
+nav span{
+    cursor: pointer;
+}
+.catalog span{
+    margin:0px 20px 0px 20px;
+}
