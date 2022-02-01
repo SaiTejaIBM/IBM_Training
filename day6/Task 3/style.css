@@ -1,0 +1,7 @@
+#parent{
+    display: grid;
+    justify-content: center;
+}
+.btn2{
+    background-color: aqua;
+}
