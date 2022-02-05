@@ -1,4 +1,3 @@
-alert("You can add tasks and use colors for priority");
 
 var init_count = 0;
 colorPicker=document.getElementsByClassName("picker")[0];
