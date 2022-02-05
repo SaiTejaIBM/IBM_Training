@@ -4,8 +4,8 @@ body{
 }
 
 .picker{
-    height: 25px;
-    width: 30px;
+    height: 16px;
+    width: 20px;
 }
 /* .submitIcon{
     font-size: 1.2rem !important;
@@ -23,11 +23,10 @@ body{
     margin: auto;
     display: flex;
     background-color: #fff;
-    padding: 1.2rem;
-    width: 28rem;
+    padding: 0.9rem;
+    width: 25rem;
     border-radius: 0.7rem;
 }
-
 .card{
     align-items: center;
     margin: auto;
@@ -48,7 +47,6 @@ body{
     outline:0;
     width: 100%;
     margin:0rem 1rem 0rem 1rem;
-    font-size: 1.2rem;
 }
 .inputSearch input:focus{
     outline: none !important;
@@ -60,12 +58,5 @@ body{
     }
     .inputSearch{
         width: 20rem;
-    }
-    .picker{
-        width: 20px;
-        height: 25px;        
-    }
-    .inputSearch input{
-        font-size: 1rem;
     }
 }
