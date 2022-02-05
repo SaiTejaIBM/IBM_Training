@@ -1,0 +1,53 @@
+body{
+    background-color: #cfd3d9;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.picker{
+    height: 16px;
+    width: 20px;
+}
+/* .submitIcon{
+    font-size: 1.2rem !important;
+    color: #F76E11;
+    font-weight: 800;
+} */
+.deleteIcon{
+    font-size: 0.8rem;
+    color:#fff;
+    cursor: pointer;
+    margin-left: auto;
+}
+.inputSearch{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+    padding: 0.9rem;
+    width: 25rem;
+    border-radius: 0.7rem;
+}
+.card{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    padding: 0.9rem;
+    width: 25rem;
+    border-radius:0.7rem;
+    margin-top:0.4rem;
+}
+.card p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.inputSearch input{
+    border: 0;
+    outline:0;
+    width: 100%;
+    margin:0rem 1rem 0rem 1rem;
+}
+.inputSearch input:focus{
+    outline: none !important;
+}
