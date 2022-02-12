@@ -1,0 +1,54 @@
+<div class="parent">
+    <div class="container p-5 ">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm p-5  align-self-center">
+                <p class="w-100 pa1" >
+                    Learn to code by watching others
+                </p>
+                <p class="w-100 pa2">
+                    See how experienced developers solve problems in real-time. 
+                    Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+                </p>
+            </div>
+            <div class="col-sm">
+                <div class="frm">
+                    <div class="card w-100 text-center pt-2 rounded-3" style="background-color: hsl(248, 32%, 49%); color:white">
+                        <p> <b>
+                            Try it free for 7 days and then
+                        </b>  $20/month thereafter</p>
+                    </div>
+                    <br>
+                    <div class="card w-100 rounded-5">
+                        <div class="card-body p-5">
+                            <form action="" class=" needs-validation" #logIn="ngForm" (ngSubmit)="onSubmit(logIn)">
+                                <input type="text" name="fName" class="form-control form-control-lg" placeholder="First Name" 
+                                ngModel required minlength="4" #fName="ngModel">
+                                <small *ngIf="fName.invalid && fName.touched">Min length for name is 4</small>
+                                <br>
+                                <input type="text" name="lName" class="form-control form-control-lg" placeholder="Last Name"
+                                 ngModel required minlength="4" #lName="ngModel">
+                                 <small *ngIf="lName.invalid && lName.touched">Min length for name is 4</small>
+                                <br>
+                                <input type="email" name="email" class="form-control form-control-lg"  placeholder="Email" 
+                                ngModel required email #email="ngModel">
+                                <small *ngIf="email.invalid && email.touched">Please enter valid email address</small>
+                                <br>
+                                <input type="password" name="password" class="form-control form-control-lg" 
+                                placeholder="Password" ngModel required #pass="ngModel" minlength="8">
+                                <small *ngIf="pass.invalid && pass.touched">Min length for password is 8</small>
+                                <br>
+                                <button class="btn form-control form-control-lg btn-success" [disabled]="logIn.invalid">Claim Your Free
+                                    trial</button>
+                                
+                                <br><br>
+                                <p style="font-size: 0.9em; " class="text-center text-muted">By clicking to button you are agreeing our <span style="color: red;"> Terms and Services</span></p>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

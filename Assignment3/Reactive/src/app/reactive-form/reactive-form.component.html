@@ -1,0 +1,53 @@
+<div class="parent">
+    <div class="container p-5 ">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm p-5  align-self-center">
+                <p class="w-100 pa1" >
+                    Learn to code by watching others
+                </p>
+                <p class="w-100 pa2">
+                    See how experienced developers solve problems in real-time. 
+                    Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+                </p>
+            </div>
+            <div class="col-sm">
+                <div class="frm">
+                    <div class="card w-100 text-center pt-2 rounded-3" style="background-color: hsl(248, 32%, 49%); color:white">
+                        <p> <b>
+                            Try it free for 7 days and then
+                        </b>  $20/month thereafter</p>
+                    </div>
+                    <br>
+                    <div class="card w-100 rounded-5">
+                        <div class="card-body p-5">
+                            <form action="" [formGroup]="logRe" (ngSubmit)="onSubmit()">
+                                <input type="text" class="form-control form-control-lg" placeholder="First Name" formControlName="fName">
+                                <small  *ngIf="fname.invalid && fname.touched">Min length for name is 4</small>
+                                <br>
+                                <input type="text" class="form-control form-control-lg" placeholder="Last Name" formControlName="lName">
+                                <small *ngIf="lname.invalid && lname.touched">Min length for name is 4</small>
+                                <br>
+                                <input type="email" class="form-control form-control-lg" placeholder="Email" formControlName="email">
+                                <small *ngIf="email.invalid && email.touched">Please provide valid email id</small>
+                                <br>
+                                <input type="password" class="form-control form-control-lg" placeholder="Password" formControlName="pass" >
+                                <small *ngIf="pass.invalid && pass.touched">Min length for password is 8</small>
+                                <br>
+                                <button class="btn form-control form-control-lg btn-success" [disabled]="!logRe.valid || logRe.untouched" >Claim Your Free
+                                    trial</button>
+                                <br><br>
+                                <p style="font-size: 0.9em; " class="text-center text-muted">By clicking to button you are agreeing our <span style="color: red;"> Terms and Services</span></p>
+                                
+
+                                   
+
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
