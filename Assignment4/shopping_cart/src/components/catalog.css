@@ -10,7 +10,8 @@ div.item{
     margin: 1.25em;
 }
 button{
-    background-color: bisque;
+    color:white;
+    background-color: #312a50;
     font-weight: bold;
     padding: 0.4em;
 }

@@ -27,10 +27,9 @@ const[cartItems, setCart] = useState([]);
 
 const[total, setTotal] =useState(0);
 
-const items = [{key:1, brand:"Victorinox", model: "Maverick", price: 39700}, {key:2, brand:"Victorinox", model: "Field Force", price: 29900}, {key:3, brand:"Victorinox", model: "Night Vision", price: 54400}, {key:4,brand:"Victorinox", model: "Alliance", price: 36400}, {key:5,brand:"Breitling", model: "Avenger", price: 308800},{key:6,brand:"Breitling", model: "Chronomat", price: 621520}, {key:7,brand:"Breitling", model: "Endurance Pro", price: 249380}, {key:8,brand:"Hublot", model: "Big Bang", price: 1730100}, {key:9,brand:"Hublot", model: "Classic Fusion", price: 861100}, {key:10,brand:"Audemars Piguet", model: "Code 11.59", price: 3297000},{key:11,brand:"Audemars Piguet", model: "Royal Oak", price: 4095000}, {key:12,brand:"Panerai", model: "Luminor", price: 1071000}, {key:13,brand:"Panerai", model: "Submersible", price: 1066000}];
+const items = [{key:1, brand:"B1", model: "M1", price: 13232}, {key:2, brand:"Royal Enfield", model: "Speed", price: 318222}, {key:3, brand:"B3", model: "Specs", price: 22112},];
   return (
     <>
-    <h2>Catalog</h2>
     <div className="catalog">
         {items.map(item=>{return(
             <>
